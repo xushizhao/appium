@@ -15,3 +15,5 @@
 * [deviceconsole](https://github.com/rpetrich/deviceconsole)
 * [WinAppDriver](http://github.com/Microsoft/WinAppDriver)
 * [WebDriverAgent](https://github.com/facebook/webdriveragent)
+
+本文由 [ZhaoC](https://github.com/ZhaoC) 翻译，由 [oscarxie](https://github.com/oscarxie) 校验。
