@@ -2,10 +2,11 @@
 
 Appium v1.5里某些服务器参数已被弃用，取而代之使用的-default-capabilities 标志。
 
-用法：node.[标志]
+用法：node . [标志]
 
 ## 服务器标志
 所有标志都是可选的，但是有些必须跟指定标志组合使用才生效。
+
 
 
 <expand_table>
@@ -22,7 +23,7 @@ Appium v1.5里某些服务器参数已被弃用，取而代之使用的-default-
 | `-r`, `--backend-retries`       | 3                                | (仅iOS) 遇到crash或者超时，尝试重启Instruments的次数    | `--backend-retries 3`                    |
 | `--session-override`            | false                            | 允许session覆盖 (如有冲突)                       |                                          |
 | `-l`, `--pre-launch`            | false                            | 首次建立session时预启动应用 (iOS 需要 –app参数，Android需要 –app-pkg和 –app-activity参数) |                                          |
-| `-g`, `--log`                   | 无                                | 将日志输出到指定文件                               | --log /path/to/appium.log`               |
+| `-g`, `--log`                   | 无                                | 将日志输出到指定文件                               | `--log /path/to/appium.log`               |
 | `--log-level`                   | debug                            | 日志等级；默认 (控制台[:file]): 调试[:debug]         | `--log-level debug`                      |
 | `--log-timestamp`               | false                            | 在终端输出里显示时间戳                              |                                          |
 | `--local-timezone`              | false                            | 时间戳使用本地时区                                |                                          |
@@ -90,3 +91,6 @@ Appium v1.5里某些服务器参数已被弃用，取而代之使用的-default-
 | `--keep-keychains`              | false                            | [弃用] - (仅iOS) 当Appium启动或者关闭的时候，是否保留keychains(Library/Keychains) |                                          |
 | `--localizable-strings-dir`     | en.lproj                         | [弃用] - (仅iOS)定位.strings所在目录的相对路径         | `--localizable-strings-dir en.lproj`     |
 | `--show-ios-log`                | false                            | [弃用] - (仅iOS) 如果设置了，iOS系统日志会输出到终端        |                                          |
+|`--enable-heapdump`|false|激活 NodeJS 内存 dumps 收集功能。这个功能对找到内存泄露非常有用。用 'kill -SIGUSR2 &lt;PID&gt;' 命令来创建 node 进程的内存堆栈dump，只有在 *nix 系统有效。dump 文件会被创建在 appium 运行的目录，文件使用 *.heapsnapshot 做后缀。如果后续想要深入研究，这个快照可以被加载到 Chrome Inspector 里去。参加 [Rising Stack article](https://blog.risingstack.com/finding-a-memory-leak-in-node-js/) for more details.||
+
+本文由 [testly](https://github.com/testly) 翻译，由 [lihuazhang](https://github.com/lihuazhang) 校验。
