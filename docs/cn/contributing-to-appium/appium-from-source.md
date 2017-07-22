@@ -1,29 +1,22 @@
-## Running Appium from Source
 ## 从源码运行Appium
 
-So you want to run Appium from source and help fix bugs and add features?
-Great! Just fork the project, make a change, and send a pull request! Please
-have a look at our [Style Guide](style-guide-2.0.md) before getting to work.
-Please make sure the unit and functional tests pass before sending a pull
-request; for more information on how to run tests, keep reading!
-你想从源码运行Appium，帮助修复BUG和添加功能吗？
-真棒！只需要fork工程，添加你的修改，然后发送pull请求即可！
-在开始之前请阅读我们的代码样式指导文档（style-guide-2.0.md）。
-在发送pull请求前请确保通过功能测试和单元测试；关于如何运行测试等更多信息，请继续阅读本文！
+你想从源码运行Appium并帮助修复BUG和添加功能吗？
+真棒！只需要fork工程，添加一个修改，然后发送pull请求即可！
+在开始之前请阅读我们的代码风格指南（style-guide-2.0.md）。
+在发送pull请求前请确保通过单元和功能测试；关于如何运行测试等更多信息，请继续阅读！
 
-Make sure you read and follow the setup instructions in the README first.
-首先，你必须阅读README文件且跟着设置走。
+首先，确保你阅读README文件且按照设置说明走。
 
-### Setting up Appium from Source
-### 开工
+### 从源码设置Appium
 
 An Appium setup involves the Appium server, which sends messages back and forth
 between your test code and devices/emulators, and a test script, written in
 whatever language binding exists that is compatible with Appium. Run an
 instance of an Appium server, and then run your test.
+一个Appium设置涉及Appium服务，Appium服务在你的测试代码和设备或模拟器之间来回发送消息，
+一个写入任何语言与Appium兼容的测试脚本。
+运行一个Appium服务器的实例，然后运行你的测试。
 
-
-The quick way to get started:
 快速开始：
 
 ```center
