@@ -119,7 +119,7 @@ public function testThings()
         // do mobile stuff
 }
 ```
-## 自动化混合 Android 应用
+## 自动化 Android 的混合应用
 
 Appium 通过 Chromedriver 内建混合应用支持。Appium 也可以使用 Selendroid 支持 4.4 之前的设备的 webview 测试。（你需要在 desired capability 里指定 `"device": "selendroid"`）。
 
@@ -128,17 +128,16 @@ Appium 通过 Chromedriver 内建混合应用支持。Appium 也可以使用 Sel
 
 一旦你设置了 desired capabilities，开始一个 appium 会话，遵循上面的教程。
 
-## 自动化混合 iOS 应用
+## 自动化 iOS 混合应用
 
 Appium 使用 remote debugger 创建和 webview 的交互连接。当在模拟器上执行下面例子的时候，我们可以直接建立连接，因为模拟器和 appium 服务器在同一台机器上。
 
 一旦你设置了 desired capabilities，开始一个 appium 会话，遵循上面的教程。
 
 ## 在 iOS 真机上运行
-appium 使用一个远程调试器建立连接来实现和 web 视图的交互。当在模拟器上执行下面例子的时候，我们可以直接建立连接，因为模拟器和 appium 服务器在同一台机器上。
 
 当在真机上运行用例时，appium 无法直接访问 web 视图，所以我们需要通过 USB 线缆来建立连接。我们使用 [ios-webkit-debugger-proxy](https://github.com/google/ios-webkit-debug-proxy)建立连接。
 
 如何安装和使用 iOS webkit debug proxy，请参考 [iOS webkit debug proxy](/docs/en/advanced-concepts/ios-webkit-debug-proxy.md) 
 
-@lihuazhang 校验
+本文由 [tobecrazy](https://github.com/tobecrazy) 翻译，由 [lihuazhang](https://github.com/lihuazhang) 校验。

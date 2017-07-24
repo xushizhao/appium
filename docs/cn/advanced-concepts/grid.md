@@ -47,9 +47,9 @@
 ```
 
 可以在 <a href="http://selenium.googlecode.com/git/docs/api/java/org/openqa/selenium/Platform.html">这里</a>查看有效的 platform 参数。
-如果没有给出 `url`、`host` 和 `port`，配置会自动指向 `localhost：whatever-port-Appium-started-on`。
 
-如果你的Appium Server 和 Selenium Grid 没有运行在同一台机器上，为确保 Selenium Grid 连接正常，请在你的 `host` & `url` 上使用外部域名或 IP 地址，而不是 localhost 和 127.0.0.1
+如果没有给出 `url`、`host` 和 `port`，配置会自动指向 `localhost:whatever-port-Appium-started-on`。
 
+如果你的 Appium Server 和 Selenium Grid 没有运行在同一台机器上，为确保 Selenium Grid 连接正常，请在你的 `host` & `url` 上使用外部域名或 IP 地址，而不是 localhost 和 127.0.0.1
 
-@lihuazhang 校验
+本文由 [tobecrazy](https://github.com/tobecrazy) 翻译，由 [lihuazhang](https://github.com/lihuazhang) 校验。

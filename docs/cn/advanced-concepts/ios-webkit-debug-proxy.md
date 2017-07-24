@@ -6,7 +6,7 @@
 
 #### 使用 Homebrew
 
-在终端执行以下命令使用 Homebrew 安装最新版本的 ios-webkit-debug-proxy ：
+在终端执行以下命令使用 Homebrew 安装最新版本的 ios-webkit-debug-proxy：
 
  ``` center
  # 没有安装 brew 时才需要第一条命令。
