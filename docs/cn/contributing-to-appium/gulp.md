@@ -1,6 +1,6 @@
 ## Appium gulp命令
 
-[Gulp](http://gulpjs.com)就像Node.js的`make`一样！我们使用它来自动化所有各种应用开发任务。
+[Gulp](http://gulpjs.com)就像Node.js的`make`一样！我们使用它来自动化各种应用开发任务。
 以下是你可以执行的操作：
 
 |任务|说明|
@@ -13,3 +13,5 @@
 | gulp unit-test |运行单元测试|
 | gulp e2e-test |运行e2e 测试 |
 | gulp docs |生成 docs/en/writing-running-appium/server-args.md 文档|
+
+本文由 [ZhaoC](https://github.com/ZhaoC) 翻译，由 [oscarxie](https://github.com/oscarxie) 校验。
