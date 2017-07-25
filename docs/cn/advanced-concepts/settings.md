@@ -44,12 +44,15 @@ Settings通过下面的API实现：
 
 设置[UiAutomator Configurator](https://developer.android.com/reference/android/support/test/uiautomator/Configurator.html) 的超时时间和延迟. 只支持Android API 18 及以上版本。
 
-**"actionAcknowledgmentTimeout"** - Int类型，与[setActionAcknowledgmentTimeout](https://developer.android.com/reference/android/support/test/uiautomator/Configurator.html#setActionAcknowledgmentTimeout(long))相同。被设置为负数时将取默认值(3 * 1000 milliseconds)
+**"actionAcknowledgmentTimeout"** - Int类型，与[setActionAcknowledgmentTimeout](https://developer.android.com/reference/android/support/test/uiautomator/Configurator.html#setActionAcknowledgmentTimeout(long))相同。被设置为负数时将取默认值(3 * 1000 毫秒)
 
-**"keyInjectionDelay"** - Int类型，与[setKeyInjectionDelay](https://developer.android.com/reference/android/support/test/uiautomator/Configurator.html#setKeyInjectionDelay(long))相同。被设置为负数时将取默认值(0 milliseconds)
+**"keyInjectionDelay"** - Int类型，与[setKeyInjectionDelay](https://developer.android.com/reference/android/support/test/uiautomator/Configurator.html#setKeyInjectionDelay(long))相同。被设置为负数时将取默认值(0 毫秒)
 
-**"scrollAcknowledgmentTimeout"** - Int类型，与[setScrollAcknowledgmentTimeout](https://developer.android.com/reference/android/support/test/uiautomator/Configurator.html#setScrollAcknowledgmentTimeout(long))相同。被设置为负数时将取默认值(200 milliseconds)
+**"scrollAcknowledgmentTimeout"** - Int类型，与[setScrollAcknowledgmentTimeout](https://developer.android.com/reference/android/support/test/uiautomator/Configurator.html#setScrollAcknowledgmentTimeout(long))相同。被设置为负数时将取默认值(200 毫秒)
 
-**"waitForIdleTimeout"** - Int类型，与[setWaitForIdleTimeout](https://developer.android.com/reference/android/support/test/uiautomator/Configurator.html#setWaitForIdleTimeout(long))相同。被设置为负数时将取默认值(10 * 1000 milliseconds)
+**"waitForIdleTimeout"** - Int类型，与[setWaitForIdleTimeout](https://developer.android.com/reference/android/support/test/uiautomator/Configurator.html#setWaitForIdleTimeout(long))相同。被设置为负数时将取默认值(10 * 1000 毫秒)
 
-**"waitForSelectorTimeout"** - Int类型，与[setWaitForSelectorTimeout](https://developer.android.com/reference/android/support/test/uiautomator/Configurator.html#setWaitForSelectorTimeout(long))相同。被设置为负数时将取默认值(10 * 1000 milliseconds)
+**"waitForSelectorTimeout"** - Int类型，与[setWaitForSelectorTimeout](https://developer.android.com/reference/android/support/test/uiautomator/Configurator.html#setWaitForSelectorTimeout(long))相同。被设置为负数时将取默认值(10 * 1000 毫秒)
+
+
+翻译 by [ghost62184](https://github.com/ghost62184)， 由 [chenhengjie123](https://github.com/chenhengjie123) 校验
