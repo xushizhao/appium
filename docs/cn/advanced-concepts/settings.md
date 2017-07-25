@@ -55,4 +55,4 @@ Settings通过下面的API实现：
 **"waitForSelectorTimeout"** - Int类型，与[setWaitForSelectorTimeout](https://developer.android.com/reference/android/support/test/uiautomator/Configurator.html#setWaitForSelectorTimeout(long))相同。被设置为负数时将取默认值(10 * 1000 毫秒)
 
 
-翻译 by [ghost62184](https://github.com/ghost62184)， 由 [chenhengjie123](https://github.com/chenhengjie123) 校验
+本文由 [ghost62184](https://github.com/ghost62184) 翻译， 由 [chenhengjie123](https://github.com/chenhengjie123) 校验
