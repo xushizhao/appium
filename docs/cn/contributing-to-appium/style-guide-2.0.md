@@ -1,23 +1,19 @@
 ## 给贡献者的风格指南
 
-感谢您对Appium的贡献！以下是我们编写javascript代码时需要遵守的准则，请确认你的提交能符合这些规范，这有利于我们合并你的代码时能保持量好的编码风格。其中最核心的准则是：*使你的代码与其他代码的编码风格保持一致*。
+感谢您对Appium的贡献！以下是我们编写javascript代码时需要遵守的准则，请确认你的提交能符合这些规范，这有利于我们合并你的代码时能保持良好的编码风格。其中最核心的准则是：*使你的代码与其他代码的编码风格保持一致*。
 
 ### 衍合（Rebasing）
 
 每个 pull 请求中的提交（commits）都应该包含[逻辑变更(logical changes)](https://github.com/appium/appium/pull/920#issuecomment-21588553)。
-> 第一，包含逻辑变更（logical changes）的提交更容易让人理解。如果你想让人们明白你在做什么，你需要做的就是向人们解释为什么这么做。这有助于提高代码质量和代码可读性。
-
-> 第二，如果我们需要变更你的代码，比起深入阅读源码中的执行步骤，看到一个逻辑变更会使我们的工作更加轻松，特别是如果你像我一样，让两三个工作任务并行进行。
-
 如果有多位贡献者，请确保他们各自都有自己的提交记录，修改作者信息不是一个好主意。合并（merge）提交必须从 pull 请求中 rebase 。
 
 ### 检错（Linting）
 
 所有的代码（除了使用了 Apple 私有方法的`bootstrap.js`代码）必须通过 JSLint 的检错测试。你可以在 Appium 存储目录下，运行`grunt lint`来检查你的代码。如果你已创建一个新的 .js 文件，请确认它在`grunt.js`中被通配符覆盖，或者被专门添加。
 
-编辑器的即时检错集成很简单，并且这会使得整个编码过程更加顺利。 我们喜欢 [jshint](http://www.jshint.com), 因为它已经与许多源代码编辑器集成了。将文`.jshintrc`加入到仓库中，当通过添加jshint到你的编辑器时，你将大受即时检错的裨益。
+编辑器的即时检错集成很简单，并且这会使得整个编码过程更加顺利。 我们喜欢 [jshint](http://www.jshint.com), 因为它已经与许多源代码编辑器集成了。将文件`.jshintrc`加入到仓库中，当通过添加jshint到你的编辑器时，你将大受即时检错的裨益。
 
-因为jshint不再强制检查代码风格，我们也使用 [jscs](https://github.com/mdevils/node-jscs)，它其中也集成在一些源代码编辑器中。
+因为jshint不再强制检查代码风格，我们也使用 [jscs](https://github.com/mdevils/node-jscs)，它也集成在一些源代码编辑器中。
 
 这些配置文件定义了哪些警告类型将会出现在你的编辑器中。 查看 [this page for jshint](http://www.jshint.com/platforms/) 和 [this page for jscs](https://github.com/mdevils/node-jscs#friendly-packages) ，找到它们各自支持的编辑器和平台的列表，以及如何设置你的编辑器使之能自动化检错。
 
@@ -50,7 +46,8 @@
     var x = myFunc("lol",{foo:bar,baz:boo});
     ```
 
-*   代码始终以分号结尾，以逗号开头
+*   代码始终以分号结尾
+*   以逗号开头
 
     ```javascript
     var x = {
@@ -256,3 +253,5 @@ h.driver
     .should.be.rejectedWith("status: 13")
   .nodeify(done);
 ```
+
+本文由 [wanyukang](https://github.com/wanyukang) 翻译，由 [oscarxie](https://github.com/oscarxie) 校验。
