@@ -15,7 +15,7 @@ Original error: unknown error: Chrome version must be >= 55.0.2883.0
 
 
 | Version | Minimum Chrome Version | Link to Chromedriver                                                      |
-|=========|========================|===========================================================================|
+|---------|------------------------|---------------------------------------------------------------------------|
 | 2.29    | 57.0.2987.0            | [link](https://chromedriver.storage.googleapis.com/index.html?path=2.29/) |
 | 2.28    | 55.0.2883.0            | [link](https://chromedriver.storage.googleapis.com/index.html?path=2.28/) |
 | 2.27    | 54.0.2840.0            | [link](https://chromedriver.storage.googleapis.com/index.html?path=2.27/) |
@@ -46,6 +46,7 @@ Original error: unknown error: Chrome version must be >= 55.0.2883.0
 | 2.2     | 27.0.1453.0            | [link](https://chromedriver.storage.googleapis.com/index.html?path=2.2/)  |
 | 2.1     | 27.0.1453.0            | [link](https://chromedriver.storage.googleapis.com/index.html?path=2.1/)  |
 | 2.0     | 27.0.1453.0            | [link](https://chromedriver.storage.googleapis.com/index.html?path=2.0/)  |
+
 
 我们可以在[这里](https://chromedriver.storage.googleapis.com/index.html) 可以找到完整的 Chromedriver release 列表。任何一个 Chromedriver 支持的 Chrome 最小版本都可以在  [Chromium](https://www.chromium.org/Home) 项目的[源码](https://chromium.googlesource.com/chromium/src/+/master/docs/get_the_code.md)中找到。把发布那个提交给拉出来，然后在 `src/chrome/test/chromedriver/chrome/version.cc` 里找到 `kMinimumSupportedChromeVersion` 这个变量。
 
