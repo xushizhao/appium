@@ -1,5 +1,5 @@
 ## Migrating your iOS tests from UIAutomation (iOS 9.3 and below) to XCUITest (iOS 9.3 and up)
-
+12312313
 For iOS automation, Appium relies on system frameworks provided by Apple. For iOS 9.2 and below, Apple's only automation technology was called UIAutomation, and it ran in the context of a process called "Instruments". As of iOS 10, Apple has completely removed the UIAutomation instrument, thus making it impossible for Appium to allow testing in the way it used to. Fortunately, Apple introduced a new automation technology, called XCUITest, beginning with iOS 9.3. For iOS 10 and up, this will be the only supported automation framework from Apple.
 
 Appium has built in support for XCUITest beginning with Appium 1.6. For the most part, the capabilities of XCUITest match those of UIAutomation, and so the Appium team was able to ensure that test behavior will stay the same. This is one of the great things about using Appium! Even with Apple completely changing the technology your tests are using, your scripts can stay mostly the same! That being said, there are some differences you'll need to be aware of which might require modification of your test scripts if you want to run them under our XCUITest automation backend. This document will help you with those differences.
